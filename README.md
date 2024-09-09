@@ -1,18 +1,25 @@
 # neovim-configs
 This is my collection of Neovim plugins I use. Note that some of the plugins here are instable.
+
+It's meant to be minimal since I don't need a lot while using Neovim. I'm more of a Nano user anyway.
+
+> I also use [SpaceVim](https://github.com/SpaceVim/SpaceVim)
+
 ## Plugins
-- [material.nvim](https://github.com/marko-cerovac/material.nvim) > no release (saved 9 September 2024, commit [ac8f02e](https://github.com/marko-cerovac/material.nvim/commit/c97e359b7d258c0a00ec0949fe880790ad))
+- [material.nvim](https://github.com/marko-cerovac/material.nvim) > commit ac8f02e
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) > commit 38d4b23o (install seperately)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua/tree/master/lua/nvim-tree) > 1.6.1
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) > commit 4770d9a
 - [scrollbar.nvim](https://github.com/Xuyuanp/scrollbar.nvim) > 0.4.0
 
 ## Install
 Move ``init.lua`` to your home directory (I am a Windows user, so I run Ubuntu on WSL).
 You can ignore ``init.vim``, I left it there since scrollbar.nvim is a recommended for Vim Script plugin.
-```
-cp path/to/neovim-configs/init.lua ~/init.lua
+```bash
+cp path/to/neovim-configs/* ~/.config/nvim/ # copy everything over
 ```
 From there, start Neovim
-```
+```bash
 nvim
 ```
 ## PRs

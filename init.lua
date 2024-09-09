@@ -15,6 +15,9 @@ require("tree.nvim-tree").setup({
   },
 })
 
+-- nvim-treesitter
+require("treesitter.nvim-treesitter").setup()
+
 -- material
 require("material.lua.init").setup()
 
